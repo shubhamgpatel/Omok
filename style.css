@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(238, 231, 231);
+}
+#game-view{
+    width:600px;
+    height:600px;
+    margin:0 auto;padding-top:3em;
+}
+.img-gif{
+    width: 53px;
+    height: 41px;
+}
+.game-view-square{
+    background-color: #fff;
+    width: 55px; 
+    display: inline-block;
+    height: 45px;
+    border:1px solid #000;
+    cursor: pointer;
+    overflow: auto;
+    margin-top: -4px;
+}
+
+.game-view-square:hover{
+    background-color: bisque;
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top:2s0px;
+    display: block;
+}
