@@ -19,6 +19,7 @@ body{
     cursor: pointer;
     overflow: auto;
     margin-top: -4px;
+    border-radius: 10px;
 }
 
 .game-view-square:hover{
